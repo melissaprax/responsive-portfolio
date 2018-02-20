@@ -111,6 +111,12 @@
     width:20.5em;
     height:28em;
 }
+.content {
+    min-height: calc(100vh - 70px);
+  }
+.foot {
+    height: 50px;
+  }
 
 
 .path {
@@ -128,3 +134,31 @@
       stroke-dashoffset: 0;
     }
   }
+
+
+@media screen and (max-width: 980px) {
+
+    .ml-40px {
+        margin-left: 40px;
+    }
+    .mr-40px {
+        margin-right: 40px;
+    }
+    .image {
+        height: 200px;
+        width: 300px;
+    }
+    .box {
+        height: 400px;
+        width: 500px;
+    }
+
+  }
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
+}
