@@ -4,9 +4,6 @@
 .d-f {
     display: flex;
 }
-.fxd-c {
-    flex-direction: column;
-}
 .s-i {
     justify-content: space-between;
 }
@@ -161,4 +158,37 @@
 
 @media screen and (max-width: 640px) {
 
+    .mt-200px {
+        margin-top: 200px;
+    }
+    .fs-30px {
+        font-size: 1.8em;
+    }
+    .tac {
+        text-align: center;
+    }
+    .fxd-c {
+        flex-direction: column;
+    }
+    .mb-20px {
+        margin-bottom: 20px;
+    }
+    .h-725px {
+        height: 725px;
+    }
+    .pad-b {
+        padding-bottom: 40px;
+    }
+    .pad-t {
+        padding-top: 20px;
+    }
+    .pad-l {
+        padding-left: 150px;
+    }
+    .hide {
+        visibility: hidden;
+    }
+    .w-60px {
+        width: 640px;
+    }
 }
