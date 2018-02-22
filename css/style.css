@@ -114,6 +114,13 @@
 .foot {
     height: 50px;
   }
+.icons {
+    width:25px;
+    height:25px;
+}
+.w-100per {
+    width: 100%;
+}
 
 
 .path {
@@ -188,7 +195,7 @@
     .hide {
         visibility: hidden;
     }
-    .w-60px {
+    .w-640px {
         width: 640px;
     }
 }
