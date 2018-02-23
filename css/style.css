@@ -190,20 +190,21 @@
 
 @media screen and (max-width: 980px) {
 
+    .box {
+        height: 400px;
+        width: 500px;
+    }
+    .image {
+        height: 200px;
+        width: 300px;
+    }
     .ml-40px {
         margin-left: 40px;
     }
     .mr-40px {
         margin-right: 40px;
     }
-    .image {
-        height: 200px;
-        width: 300px;
-    }
-    .box {
-        height: 400px;
-        width: 500px;
-    }
+
 
   }
 
@@ -216,23 +217,23 @@
 
 @media screen and (max-width: 640px) {
 
-    .mt-200px {
-        margin-top: 200px;
-    }
     .fs-30px {
         font-size: 1.8em;
-    }
-    .tac {
-        text-align: center;
     }
     .fxd-c {
         flex-direction: column;
     }
+    .h-725px {
+        height: 725px;
+    }
+    .hide {
+        visibility: hidden;
+    }
     .mb-20px {
         margin-bottom: 20px;
     }
-    .h-725px {
-        height: 725px;
+    .mt-200px {
+        margin-top: 200px;
     }
     .pad-b {
         padding-bottom: 40px;
@@ -243,18 +244,18 @@
     .pad-l {
         padding-left: 150px;
     }
-    .hide {
-        visibility: hidden;
+    .resume-sm {
+        width: 18.63em;
+        height: 21.54em;
+    }
+    .tac {
+        text-align: center;
     }
     .w-640px {
         width: 640px;
     }
     .w-500px {
         width: 500px;
-    }
-    .resume-sm {
-        width: 18.63em;
-        height: 21.54em;
     }
     
 }
