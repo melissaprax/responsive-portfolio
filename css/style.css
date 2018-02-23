@@ -198,4 +198,12 @@
     .w-640px {
         width: 640px;
     }
+    .w-500px {
+        width: 500px;
+    }
+    .resume-sm {
+        width: 18.63em;
+        height: 21.54em;
+    }
+    
 }
